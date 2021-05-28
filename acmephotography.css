@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {font-family: "Roboto Condensed";}
+
+.outer_container {box-shadow: 0px -10px 50px 30px #bdbdbd; overflow: hidden;}
+
+.main-inner-container {display: flex;}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about p {font-weight: 800;}
+
+.about a {border-radius: 50px; font-weight: 800;}
+
+.about a:hover {background-color: #eeeeee;}
+
+.main-img-container {overflow: hidden; height: 100vh;}
+
+.main-img-container img {width: 600px;}
+
+.main-separator {background-color: #333333;}
+
+.content-img-container img {max-width: 100%;}
+
+.content-about-container h5 {font-weight: 900;}
+
+.content-about-container p {font-weight: 800; margin: 0 15px 15px 15px;}
+
+.contact-details {font-weight: 900;}
+
+@media screen and (min-width: 800px) {body {margin: 0 16%;}}
+
+@media screen and (max-width: 575px) {.about {margin-top: 4rem;}}
